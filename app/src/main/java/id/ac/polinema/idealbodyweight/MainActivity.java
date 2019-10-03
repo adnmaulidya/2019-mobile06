@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        aboutFragment = AboutFragment.newInstance("Adn Maulidya Handah Putri");
+        aboutFragment = AboutFragment.newInstance("Adn Maulidya Handah Putri ");
         menuFragment = new MenuFragment();
         brocaIndexFragment = new BrocaIndexFragment();
         getSupportFragmentManager().beginTransaction()
